@@ -15,12 +15,25 @@
 
 */
 
+.card {
+  margin-top: 50px;
+  width: 600px;
+  height: 800px;
+  margin-bottom: 100px;
+}
+
 .card-header {
   background-color: white;
   border-color: white;
 }
-
+.card-body {
+  padding-top: 50%;
+}
 .card-footer {
   background-color: white;
   border-color: white;
+}
+
+.container-fluid {
+  background-color: green;
 }

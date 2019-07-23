@@ -13,7 +13,6 @@ window.onload = function() {
   let randomNum = Math.floor(Math.random() * num.length);
 
   if (symbol[randomSym] == "\u2666" || symbol[randomSym] == "\u2665") {
-    debugger;
     document.getElementsByClassName("card-body")[0].style.color = "red";
     document.getElementsByClassName("card-footer")[0].style.color = "red";
     document.getElementsByClassName("card-header")[0].style.color = "red";
